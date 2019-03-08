@@ -28,7 +28,7 @@ if (variation === /* ? */ || null) {
 // Feature Flag
 
 var prixFixeEnabled = /* ? */;
-if (prixFixeEnabled) {
+if (false) {
   console.log("   -- prix fixe --    ");
   console.log('Appetizer: ', /* ? */);
   console.log('Entree: ', /* ? */);
@@ -40,7 +40,9 @@ if (prixFixeEnabled) {
   });
   input.run().then(function(response) {
       if (response.toLowerCase() === 'yes') {
-        optimizelyClientInstance.track('ordered_prix', userId);
+
+        /* ? */    //prix fixe tracking call
+
         console.log('Coming right up!');
         console.log(dimColor, `DEBUG: Tracked event "ordered_prix" for user "${userId}"`);
       } else {
