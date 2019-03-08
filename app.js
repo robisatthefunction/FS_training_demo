@@ -41,10 +41,9 @@ if (false) {
   input.run().then(function(response) {
       if (response.toLowerCase() === 'yes') {
 
-        /* ? */    //prix fixe tracking call
+        /* ? */    //tracking call
 
         console.log('Coming right up!');
-        console.log(dimColor, `DEBUG: Tracked event "ordered_prix" for user "${userId}"`);
       } else {
         menuOrder();
       }
@@ -63,9 +62,8 @@ var appetizer = new Input({
 appetizer.run().then(function(response) {
   if (response.toLowerCase() === 'yes') {
 
-     /* ? */  //app tracking call
+     /* ? */  //tracking call
 
-    console.log(dimColor, `DEBUG: Tracked event "ordered_app" for user "${userId}"`);
   }
       var entree = new Input({
         message: "Would you like the entree?"
@@ -73,9 +71,8 @@ appetizer.run().then(function(response) {
       entree.run().then(function(response) {
         if (response.toLowerCase() === 'yes') {
 
-            /* ? */  //entree tracking call
+            /* ? */  //tracking call
 
-          console.log(dimColor, `DEBUG: Tracked event "ordered_entree" for user "${userId}"`);
         }
             var dessert = new Input({
               message: "Would you like dessert?"
@@ -83,9 +80,8 @@ appetizer.run().then(function(response) {
             dessert.run().then(function(response) {
               if (response.toLowerCase() === 'yes') {
 
-                /* ? */   //Dessert tracking call
+                /* ? */   //tracking call
 
-                console.log(dimColor, `DEBUG: Tracked event "ordered_dessert" for user "${userId}"`);
               }
    });
   });
@@ -102,7 +98,7 @@ function menu_1() {
     console.log(" -----   Appetizers  ----- ");
     console.log("Grilled Brussel Sprouts ");
     console.log("  -----  Entrees   -----   ");
-    console.log("Duck Confit        ");
+    console.log("Salmon        ");
     console.log("   ----- Desserts -----    ");
     console.log("Cheesecake                 ");
     console.log("   ");
@@ -114,11 +110,11 @@ function menu_2() {
   console.log("~ Welcome to Optimizeli's ~");
   console.log("           Menu 2           ");
   console.log("  ----   Appetizers  ----   ");
-  console.log("Guac            ");
+  console.log("Garlic Bread            ");
   console.log("  -----   Entrees   -----  ");
-  console.log("Big Mac          ");
+  console.log("Chicken Parm          ");
   console.log("   ----- Desserts   -----  ");
-  console.log("Snickers          ");
+  console.log("Chocolate Cake          ");
   console.log("  ");
 }
 
