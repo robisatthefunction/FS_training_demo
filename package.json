@@ -1,0 +1,17 @@
+{
+  "name": "fs_training_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@optimizely/optimizely-sdk": "^3.0.1",
+    "prompt-input": "^3.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
