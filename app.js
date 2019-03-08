@@ -41,7 +41,7 @@ if (false) {
   input.run().then(function(response) {
       if (response.toLowerCase() === 'yes') {
 
-        /* ? */    //tracking call
+        /* ? */   
 
         console.log('Coming right up!');
       } else {
@@ -62,7 +62,7 @@ var appetizer = new Input({
 appetizer.run().then(function(response) {
   if (response.toLowerCase() === 'yes') {
 
-     /* ? */  //tracking call
+     /* ? */
 
   }
       var entree = new Input({
@@ -71,7 +71,7 @@ appetizer.run().then(function(response) {
       entree.run().then(function(response) {
         if (response.toLowerCase() === 'yes') {
 
-            /* ? */  //tracking call
+            /* ? */
 
         }
             var dessert = new Input({
@@ -80,7 +80,7 @@ appetizer.run().then(function(response) {
             dessert.run().then(function(response) {
               if (response.toLowerCase() === 'yes') {
 
-                /* ? */   //tracking call
+                /* ? */
 
               }
    });
