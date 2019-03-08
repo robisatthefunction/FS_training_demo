@@ -1,6 +1,4 @@
-# Project Title
-
-Optimizely Full Stack Training Demo App
+# Optimizely Full Stack Training Demo App
 
 ## Getting Started
 
