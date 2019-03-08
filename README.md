@@ -1,5 +1,7 @@
 # Optimizely Full Stack Training Demo App
 
+The purpose of this activity is to learn how to create experiments and features within Optimizely and understand how the experiment configuration will be applied in your code.
+
 ## Getting Started
 
 1. Clone the repository
