@@ -14,26 +14,28 @@ rp(options).then(function(datafile) {
 
   // Instantiate an Optimizely client upon retrieving datafile
 const optimizelyClientInstance = optimizelySDK.createInstance({
-  datafile: datafile,
+  datafile: datafile
 });
-var attribute = /* ? */;
-// A/B Test
+var attribute = null /* ? */;
+
+/********* A/B Test  ********/
 var variation = /* ? */;
 if (variation === /* ? */ || null) {
   menu_1();
 } else if (variation === /* ? */) {
   menu_2();
 }
+/********* A/B Test End *********/
 
-// Feature Flag
+/********* Feature Flag *********/
 
-var prixFixeEnabled = /* ? */;
+/* ? */
 if (false) {
   console.log("   -- prix fixe --    ");
   console.log('Appetizer: ', /* ? */);
   console.log('Entree: ', /* ? */);
   console.log('Dessert: ', /* ? */);
-  var price = /* ? */
+  var price = null /* ? */;
   console.log(dimColor, `DEBUG: [Feature ON] The feature "prix_fixe" is on for user "${userId}"`);
   var input = new Input({
     message: `Tonight we are also offering a prix fixe meal for $${price}, are you interested?`
@@ -41,7 +43,7 @@ if (false) {
   input.run().then(function(response) {
       if (response.toLowerCase() === 'yes') {
 
-        /* ? */   
+        /* ? */
 
         console.log('Coming right up!');
       } else {
@@ -50,7 +52,7 @@ if (false) {
     });
 } else menuOrder();
 
-
+/*********** Feature Flag end ************/
 
 /*************** functions ***************/
 
